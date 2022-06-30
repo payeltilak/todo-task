@@ -17,8 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
-        <Route path="/todolist" element={<TodoList></TodoList>}></Route>
-        <Route path="/completedlist" element={<CompletedList></CompletedList>}></Route>
+        <Route path="/todo" element={<TodoList></TodoList>}></Route>
+        <Route path="/completedtask" element={<CompletedList></CompletedList>}></Route>
         <Route path="/calender" element={<Calender></Calender>}></Route>
         
         
